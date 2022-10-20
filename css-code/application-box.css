@@ -1,0 +1,51 @@
+.application-box{
+    display: flex;
+    justify-content: center;
+    text-decoration:none;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #d8e9f9;
+    margin-left: auto;
+    margin-right:auto;
+    margin-top: 0;
+    margin-bottom: 55px;
+    padding: 20px auto 20px auto;
+    
+}
+
+.application-container{
+    max-width: 1000px;
+    padding: 20px 20px 20px 20px;
+
+}
+
+.div-app-button{
+    text-align: right;
+}
+
+.application-button{
+    display:inline-block;
+    padding:0.5em 3em;
+    border:0.16em solid #044c7c;
+    margin:0 0.3em 0.3em 0;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family:'Space Mono', monospace;
+    font-weight:800;
+    color: #044c7c;
+    background-color: rgb(255, 255, 255);
+    text-align:center;
+    transition: all 0.15s;
+}
+
+.application-button:hover{
+    color:#fffdfc;
+    border-color:#744d3c;
+    background-color: #ae735a;
+    border:0.3em solid #744d3c;
+}
+
+.application-button:active{
+    color:#fffdfc;
+    border-color:#ae735a;
+}
+

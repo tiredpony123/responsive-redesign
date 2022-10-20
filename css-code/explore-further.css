@@ -1,0 +1,187 @@
+/* All the images are the art work of Yale School of Art students */
+/* The student pages are; https://yaleschoolofart.viewingrooms.com/artists/82-salvador-andrade-arevalo/overview/
+and https://xili.studio/2022-1 */
+
+.explore-further{
+    text-align: center;
+    font-family: 'Space Mono', monospace;
+    padding-bottom: 30px;
+}
+
+.parent-link, .parent-link:link, .parent-link:visited{
+    text-decoration: none;
+}
+
+
+.parent {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 20px;
+    grid-auto-flow: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1000px;
+    padding-bottom: 150px;
+  }
+  
+.child {
+    padding: 20px;
+    color: white;
+    background-color: #0074d9; 
+    font-family: 'Space Mono', monospace;
+    font-size: 30px;
+    width: 250px;
+    height: 250px;
+    flex-basis: 250px;
+    
+}
+
+
+div.child.child-1:hover{
+    background-image: url("../images/childd-one.jpeg");
+    background-position: center;
+    transition: color 0.7s; 
+}
+
+div.child.child-1 span{
+    transition: background-color 0.7s;
+}
+
+div.child.child-1 span:hover{
+    background-color: white;
+}
+
+div.child.child-2:hover{
+    background-image: url("../images/child-2.jpeg");
+    background-position: center;
+    transition: color 0.7s; 
+}
+
+div.child.child-2 span{
+    transition: background-color 0.7s;
+}
+
+div.child.child-2 span:hover{
+    background-color: white;
+}
+
+div.child.child-3:hover{
+    background-image: url("../images/child-three.jpeg");
+    background-position: center;
+    transition: color 0.7s; 
+}
+
+div.child.child-3 span{
+    transition: background-color 0.7s;
+}
+
+div.child.child-3 span:hover{
+    background-color: white;
+}
+
+div.child.child-4:hover{
+    background-image: url("../images/child-four.jpeg");
+    background-position: center;
+    transition: color 0.7s; 
+}
+
+div.child.child-4 span{
+    transition: background-color 0.7s;
+}
+
+div.child.child-4 span:hover{
+    background-color: white;
+}
+
+div.child.child-5:hover{
+    background-image: url("../images/child-five.jpeg");
+    background-position: center;
+    transition: color 0.7s; 
+}
+
+div.child.child-5 span{
+    transition: background-color 0.7s;
+}
+
+div.child.child-5 span:hover{
+    background-color: white;
+}
+
+div.child.child-6:hover{
+    background-image: url("../images/chilld-six.jpeg");
+    background-position: center;
+    transition: color 0.7s; 
+}
+
+div.child.child-6 span{
+    transition: background-color 0.7s;
+}
+
+div.child.child-6 span:hover{
+    background-color: white;
+}
+
+.child:hover{
+    color: rgb(5, 5, 5);
+    background-color: white;
+}
+
+
+
+@media (hover: none) {
+    div.child.child-1{
+        background-image: url("../images/childd-one.jpeg");
+        background-position: center;
+        color: rgb(5, 5, 5);
+    }
+    div.child.child-1 span{
+        background-color: white;
+    }
+
+    div.child.child-2{
+        background-image: url("../images/child-2.jpeg");
+        background-position: center;
+        color: rgb(5, 5, 5);
+    }
+    div.child.child-2 span{
+        background-color: white;
+    }
+
+    div.child.child-3{
+        background-image: url("../images/child-three.jpeg");
+        background-position: center;
+        color: rgb(5, 5, 5);
+    }
+    div.child.child-3 span{
+        background-color: white;
+    }
+
+    div.child.child-4{
+        background-image: url("../images/child-four.jpeg");
+        background-position: center;
+        color: rgb(5, 5, 5);
+    }
+    div.child.child-4 span{
+        background-color: white;
+    }
+
+    div.child.child-5{
+        background-image: url("../images/child-five.jpeg");
+        background-position: center;
+        color: rgb(5, 5, 5);
+    }
+    div.child.child-5 span{
+        background-color: white;
+    }
+
+    div.child.child-6{
+        background-image: url("../images/chilld-six.jpeg");
+        background-position: center;
+        color: rgb(5, 5, 5);
+    }
+    div.child.child-6 span{
+        background-color: white;
+    }
+
+}

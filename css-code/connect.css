@@ -1,0 +1,40 @@
+.connect{
+    text-align: center;
+    font-family: 'Space Mono', monospace;
+    padding-bottom: 20px;
+    margin-top: 50px;
+}
+
+.connect-icons{
+    text-align: center;
+    margin:0;
+  }
+
+.fa {
+    padding: 10px;
+    font-size: 25px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+  
+.fa-instagram:hover{
+    background: #ee3dd9;
+    color:white
+}
+
+.fa-facebook:hover{
+    background: #3B5998;
+    color:white
+}
+
+.fa-youtube:hover{
+    background: #ae0909;
+    color:white
+}
+ 
+
+
+
+  

@@ -1,0 +1,45 @@
+
+body{
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  position: relative;
+  text-align: left;
+  color: white;
+  padding-top: 20px;
+  margin: 0;
+  }
+  
+.page-title {
+  position: absolute;
+  font-family: 'Space Mono', monospace;
+  bottom: 8px;
+  left: 16px;
+  }
+
+.im-text{
+  max-width: im-600px;
+}
+
+.arrow{
+  position:absolute;
+  left:0;
+  right:0;
+  bottom: -28px;
+  text-align: center;
+  color:rgb(215, 215, 215);
+}
+
+.material-symbols-outlined{
+  font-size: 3.75rem;
+}
+
+
+@media screen and (max-width: 500px) {
+  .im-text{
+    display: none; 
+  }
+  
+}

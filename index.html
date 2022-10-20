@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title> Yale School of Art Redesign </title>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Space+Mono:ital@0;1&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,400;1,100&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Space+Mono:ital@0;1&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">   
+
+        <link rel="stylesheet" href="css-code/navbar.css" >
+        <link rel="stylesheet" href="css-code/imagetext.css">
+        <link rel="stylesheet" href="css-code/application-box.css">
+        <link rel="stylesheet" href="css-code/explore-further.css">
+        <link rel="stylesheet" href="css-code/open-house.css">
+        <link rel="stylesheet" href="css-code/connect.css">
+        <link rel="stylesheet" href="css-code/footer.css">
+    </head>
+
+    <body>
+        <!-- All the images are the art work of Yale School of Art students 
+        The student pages are; https://yaleschoolofart.viewingrooms.com/artists/82-salvador-andrade-arevalo/overview/
+        and https://xili.studio/2022-1  -->
+         <!-- The navigation menu and the switch to burger menu is based upon 2 tutorials available at www.w3schools.com-->
+        <div class="header">
+            <img class="yale-header" src="images/yale-header.jpg" width="400px" height="100px">
+            <div class="header-right" id="myHeaderRight">
+              <a href="">Home</a>
+              <a href="">About</a>
+              <a class="on" href="">Apply</a>
+              <a href="">Exhibitions</a>
+              <a href="">Publications</a>
+              <a href="">News</a>
+              <a href="">Events</a>
+              <a class="login" href="">Login</a>
+              <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+              </a>
+            </div>
+          </div>
+
+        <script>
+        function myFunction() {
+            var x = document.getElementById("myHeaderRight");
+            if (x.className === "header-right") {
+            x.className += " responsive";
+            } else {
+            x.className = "header-right";
+            }
+        }
+        </script>
+
+        <div class="container">
+            <img src="images/domestic-topography-xili.jpg" alt="Xi Li's art" style="width:100%;">
+            <div class="page-title">
+                <h1> Apply to the School</h1>
+                <p class="im-text"> The Yale School of Art is a graduate school that confers Master of 
+                    Fine Arts Degrees in Graphic Design, Painting, Printmaking, Photography, and Sculpture</p>
+            </div>
+            <div class="arrow">
+                <span class="material-symbols-outlined"> keyboard_double_arrow_down </span>
+            </div>
+        </div>
+
+        <div class="application-box">
+            <div class="application-container">
+                <h2 class="application-title">Fall 2023 Applications</h2>
+                <p class="line-one"> Application for matriculation in Fall 2023 opens <u><b>October 1, 2022</b></u>. </p>
+                <p class="line-two"> The undergraduate admissions process is handled entirely through Yale College. 
+                Please refer all undergraduate admissions questions to the Yale College Undergraduate Admissions Office. </p>
+                <div class="div-app-button">
+                    <button class="application-button"> APPLY HERE </button>
+                </div>
+            </div>    
+        </div>
+
+        <div class="explore-further">
+            <h2> Explore Further</h2>
+        </div>
+
+
+        <div class="parent">
+            <a class="parent-link" href=""><div class="child child-1"><span> Graduate<br>Admissions</span></div> </a>
+            <a class="parent-link" href=""><div class="child child-2"><span>Tutition, Fees,<br>and Finances</span></div></a>
+            <a class="parent-link" href=""><div class="child child-3"><span>Graduate<br>Study Areas</span></div></a>
+            <a class="parent-link" href=""><div class="child child-4"><span>Courses</span></div></a>
+            <a class="parent-link" href=""><div class="child child-5"><span>Housing</span></div></a>
+            <a class="parent-link" href=""><div class="child child-6"><span>Brochures</span></div></a>
+        </div>
+
+        <div class="open-house-img">
+            <img class="open-house-actual-image" src="images/greenhouse.jpeg" alt="Xi Li's art", width="910px">
+        </div>
+
+        <div class="open-house-box">
+            <div class="open-house-container">
+                <h2>Register for Open House 2022</h2>
+                <h3>November 10, 2022 - Thursday</h3>
+                <p> 12:00 PM Sculpture Open House <br>3:00 PM Painting & Printmaking Open House </p>
+                <h3>November 11, 2022 - Friday</h3>
+                <p> 10:00 AM Graphic Design Open House <br> 2:00 PM Photography</p>
+                <div class="div-open-house-button">
+                    <button class="open-house-button"> REGISTER HERE </button>
+                </div>
+            </div>    
+        </div>
+
+        <div class="connect">
+            <h2> Connect</h2>
+        </div>
+
+        <div class="conect-icons" align="center">
+            <a href="" class="fa fa-instagram"></a>  
+            <a href="" class="fa fa-facebook"></a>  
+            <a href="" class="fa fa-youtube"></a>
+        </div>
+
+
+        <div class="footer-box">
+            <div class="footer-container">
+                <h3>Yale School of Art</h2>
+                <p class="line-one"> 1156 Chapel Street, POB 208339 <br> New Haven, Connecticut, 06520-8339</p>
+                <div class="footer-links">
+                    <a class="link-contact" href="">Contact</a>  
+                    <a class="link-contact" href="">Sitemap</a>  
+                    <a class="link-contact" href="">Accessibility</a>
+                </div>
+            </div>    
+        
+
+            <div class="footer-note-container">
+                <h4>A Note on the Collaborative Nature of the Website</h4>
+                <p class="note-text"> This website exists as an ongoing collaborative experiment in digital publishing and information sharing. Because this website functions as a wiki, all members of the School of Art community—graduate students, faculty, staff, and alums—have the ability to add new content and pages, and to edit most of the site’s existing content.
+                    <br> <br> Content is the property of its various authors. When you contribute to this site, you agree to abide by Yale University academic and network use policy, and to act as a responsible member of our community.</p>
+                <a class="link-contact" href="">Edit This Page</a>
+            </div> 
+        </div>
+
+    </body>
+</html>

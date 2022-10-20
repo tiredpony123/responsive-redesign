@@ -1,0 +1,60 @@
+
+.open-house-img{
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+.open-house-box{
+    display: flex;
+    justify-content: left;
+    text-decoration:none;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #d8e9f9;
+    margin-left: auto;
+    margin-right:auto;
+    margin-top: 0;
+    margin-bottom: 200px;
+    margin-bottom: 55px;
+    padding: 20px auto 20px auto;
+    max-width: 910px;
+    
+}
+
+.open-house-container{
+    padding: 20px 20px 20px 20px;
+    width: 100%;
+
+}
+
+.div-open-house-button{
+    text-align: right;
+}
+
+.open-house-button{
+    display:inline-block;
+    padding:0.5em 3em;
+    border:0.16em solid #044c7c;
+    margin:0 0.3em 0.3em 0;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family:'Space Mono', monospace;
+    font-weight:800;
+    color: #044c7c;
+    background-color: rgb(255, 255, 255);
+    text-align:center;
+    transition: all 0.15s;
+}
+
+.open-house-button:hover{
+    color:#fffdfc;
+    border-color:#744d3c;
+    background-color: #ae735a;
+    border:0.3em solid #744d3c;
+}
+
+.open-house-button:active{
+    color:#fffdfc;
+    border-color:#ae735a;
+}
